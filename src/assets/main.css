@@ -1,0 +1,25 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: radial-gradient(ellipse at top, #ffefd5, transparent),
+    radial-gradient(ellipse at bottom, #ffb6c1, transparent);
+}
+
+#app {
+  font-family: "Oswald", sans-serif;
+  color: #2c3e50;
+  position: relative;
+  display: grid;
+  place-items: center first-baseline;
+  grid-template-rows: 150px auto;
+  width: 100%;
+  max-width: 1280px;
+}
